@@ -1,6 +1,8 @@
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
+const PORT = process.env.PORT || 5000;
+
 http.createServer( (req,res) => {
     const qry = url.parse(req.url,true);
     let pth = '.'+qry.pathname;
@@ -18,4 +20,4 @@ http.createServer( (req,res) => {
         }
     })
 
-} ).listen(3000);
+} ).listen(PORT);
