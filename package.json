@@ -1,0 +1,20 @@
+{
+  "name": "simple_node_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taushik2208/simple_node_website.git"
+  },
+  "author": "taushik das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taushik2208/simple_node_website/issues"
+  },
+  "homepage": "https://github.com/taushik2208/simple_node_website#readme"
+}
